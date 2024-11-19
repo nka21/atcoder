@@ -1,17 +1,16 @@
 function Main(input) {
-    const values = input.split("\n").map((num) => Number(num));
-
-    const coin500Count = values[0]; // 500円
-    const coin100Count = values[1]; // 100円
-    const coin50Count = values[2]; // 50円
-    const totalAmount = values[3]; // 合計金額
+    const [A, B, C, totalAmount] = input.split("\n").map((num) => Number(num));
 
     let result = 0; // 何通りあるか
     
-    for (let i = 0; i <= coin500Count; i++) {
-        for (let j = 0; j <= coin100Count; j++) {
-            for (let k = 0; k <= coin50Count; k++) {
-                sum = 500 * i + 100 * j + 50 * k;
+    // 500円玉を0~A枚
+    for (let i = 0; i <= A; i++) {
+        // 100円玉を0~B枚
+        for (let j = 0; j <= B; j++) {
+            // 50円玉を0~C枚
+            for (let k = 0; k <= C; k++) {
+                // 硬貨の計算
+                sum = (500 * i) + (100 * j) + (50 * k);
                 if (sum === totalAmount) {
                     result++;
                 }
