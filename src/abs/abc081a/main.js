@@ -1,7 +1,10 @@
 function Main(input) {
-    input = input.split("");
+    const result = input
+        .split("")
+        .filter((str) => str === "1")
+        .length;
     
-    console.log(input.filter((value) => value === "1").length);
+    console.log(result);
 }
 
 Main(require("fs").readFileSync("/dev/stdin", "utf8"));
