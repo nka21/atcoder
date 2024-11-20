@@ -1,6 +1,5 @@
 function Main(input) {
     const num = input.trim().split("").sort().join("");
-    console.log(num)
     console.log(num === "122333" ? "Yes" : "No");
 }
 
