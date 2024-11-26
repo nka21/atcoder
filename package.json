@@ -11,5 +11,8 @@
   "license": "ISC",
   "volta": {
     "node": "18.16.1"
+  },
+  "devDependencies": {
+    "atcoder-cli": "^2.2.0"
   }
 }
