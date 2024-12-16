@@ -20,7 +20,12 @@
       "id": "abc082_b",
       "label": "B",
       "title": "Two Anagrams",
-      "url": "https://atcoder.jp/contests/abc082/tasks/abc082_b"
+      "url": "https://atcoder.jp/contests/abc082/tasks/abc082_b",
+      "directory": {
+        "path": "b",
+        "testdir": "sample",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "arc087_a",
