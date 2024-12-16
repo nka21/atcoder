@@ -9,7 +9,12 @@
       "id": "abc085_a",
       "label": "A",
       "title": "Already 2018",
-      "url": "https://atcoder.jp/contests/abc085/tasks/abc085_a"
+      "url": "https://atcoder.jp/contests/abc085/tasks/abc085_a",
+      "directory": {
+        "path": "a",
+        "testdir": "sample",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc085_b",
