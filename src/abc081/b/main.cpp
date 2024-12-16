@@ -2,26 +2,32 @@
 using namespace std;
 
 int main() {
+    int N;
+    cin >> N;
     
-    int n, a;
-    cin >> n;
+    vector<int> A(N);
     
-    int minCount = 100;
+    for (int i = 0; i < N; i++) cin >> A[i];
     
-    for (int i = 0; i < n; i++) {
-        int count = 0;
-        cin >> a;
+    int cnt = 0;
+    
+    while (true) {
+        bool exist_odd = false;
         
-        while (a % 2 == 0) {
-            a /= 2;
-            count++;
+        for (int i = 0; i < N; i++) {
+            if (A[i] % 2 != 0) exist_odd = true;
         }
-
-        // 最小値を取得
-        if (count < minCount) {
-            minCount = count;
+        
+        // 奇数があれば繰り返し終了
+        if(exist_odd) break;
+            
+        // 奇数がなければ2除算
+        for (int i = 0; i < N; i++) {
+            A[i] /= 2;
         }
+        
+        cnt++;
     }
     
-    cout << minCount << endl;
+    cout << cnt << endl;
 }
