@@ -4,26 +4,25 @@ using namespace std;
 int main() {
     int N;
     cin >> N;
-    vector<int> a_list(N);
+    vector<int> a(N);
     
     // 入力
     for (int i = 0; i < N; i++) {
-        cin >> a_list.at(i);
+        cin >> a[i];
     }
-    
+
     // 数字の大きい順にソート
-    sort(a_list.begin(), a_list.end());
-    reverse(a_list.begin(), a_list.end());
-    
-    int AliceSum = 0, BobSum = 0;
-    
+    sort(a.begin(), a.end(), greater<int>());
+
+    int Alice = 0, Bob = 0;
+
     for (int i = 0; i < N; i++) {
-        if (i == 0 || i % 2 == 0) {
-            AliceSum += a_list.at(i);
+        if (i % 2 == 0) {
+            Alice += a[i];
         } else {
-            BobSum += a_list.at(i);
+            Bob += a[i];
         }
     }
     
-    cout << AliceSum - BobSum << endl;
+    cout << Alice - Bob << endl;
 }
