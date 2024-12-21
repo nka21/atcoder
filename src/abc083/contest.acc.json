@@ -20,7 +20,12 @@
       "id": "abc083_b",
       "label": "B",
       "title": "Some Sums",
-      "url": "https://atcoder.jp/contests/abc083/tasks/abc083_b"
+      "url": "https://atcoder.jp/contests/abc083/tasks/abc083_b",
+      "directory": {
+        "path": "b",
+        "testdir": "sample",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "arc088_a",
