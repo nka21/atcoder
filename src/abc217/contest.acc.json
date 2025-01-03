@@ -31,7 +31,12 @@
       "id": "abc217_c",
       "label": "C",
       "title": "Inverse of Permutation",
-      "url": "https://atcoder.jp/contests/abc217/tasks/abc217_c"
+      "url": "https://atcoder.jp/contests/abc217/tasks/abc217_c",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc217_d",
