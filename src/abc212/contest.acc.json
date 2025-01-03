@@ -31,7 +31,12 @@
       "id": "abc212_c",
       "label": "C",
       "title": "Min Difference",
-      "url": "https://atcoder.jp/contests/abc212/tasks/abc212_c"
+      "url": "https://atcoder.jp/contests/abc212/tasks/abc212_c",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc212_d",
