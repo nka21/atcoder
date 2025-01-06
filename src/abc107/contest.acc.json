@@ -9,7 +9,12 @@
       "id": "abc107_a",
       "label": "A",
       "title": "Train",
-      "url": "https://atcoder.jp/contests/abc107/tasks/abc107_a"
+      "url": "https://atcoder.jp/contests/abc107/tasks/abc107_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc107_b",
