@@ -9,7 +9,12 @@
       "id": "abc102_a",
       "label": "A",
       "title": "Multiple of 2 and N",
-      "url": "https://atcoder.jp/contests/abc102/tasks/abc102_a"
+      "url": "https://atcoder.jp/contests/abc102/tasks/abc102_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc102_b",
