@@ -9,7 +9,12 @@
       "id": "abc105_a",
       "label": "A",
       "title": "AtCoder Crackers",
-      "url": "https://atcoder.jp/contests/abc105/tasks/abc105_a"
+      "url": "https://atcoder.jp/contests/abc105/tasks/abc105_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc105_b",
