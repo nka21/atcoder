@@ -9,7 +9,12 @@
       "id": "abc133_a",
       "label": "A",
       "title": "T or T",
-      "url": "https://atcoder.jp/contests/abc133/tasks/abc133_a"
+      "url": "https://atcoder.jp/contests/abc133/tasks/abc133_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc133_b",
