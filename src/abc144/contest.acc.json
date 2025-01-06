@@ -9,7 +9,12 @@
       "id": "abc144_a",
       "label": "A",
       "title": "9x9",
-      "url": "https://atcoder.jp/contests/abc144/tasks/abc144_a"
+      "url": "https://atcoder.jp/contests/abc144/tasks/abc144_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc144_b",
