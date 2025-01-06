@@ -9,7 +9,12 @@
       "id": "abc175_a",
       "label": "A",
       "title": "Rainy Season",
-      "url": "https://atcoder.jp/contests/abc175/tasks/abc175_a"
+      "url": "https://atcoder.jp/contests/abc175/tasks/abc175_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc175_b",
