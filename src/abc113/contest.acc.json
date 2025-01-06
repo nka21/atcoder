@@ -9,7 +9,12 @@
       "id": "abc113_a",
       "label": "A",
       "title": "Discount Fare",
-      "url": "https://atcoder.jp/contests/abc113/tasks/abc113_a"
+      "url": "https://atcoder.jp/contests/abc113/tasks/abc113_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc113_b",
