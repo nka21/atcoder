@@ -1,6 +1,3 @@
 {
-    "[cpp]": {
-        "editor.formatOnSave": false
-    },
-    "C_Cpp.errorSquiggles": "disabled"
+    "editor.formatOnSave": true
 }
