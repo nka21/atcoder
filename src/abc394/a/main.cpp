@@ -7,7 +7,7 @@ int main()
     cin >> s;
 
     string ans = "";
-    for (int i = 0; i < s.size(); i++)
+    for (int i = 0; i < (int)s.size(); i++)
     {
         if (s[i] == '2')
             ans += s[i];

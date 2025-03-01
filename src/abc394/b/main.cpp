@@ -27,6 +27,6 @@ int main()
 
     for (string word : s)
         cout << word;
-
+    cout << endl;
     return (0);
 }
