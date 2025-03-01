@@ -20,7 +20,12 @@
       "id": "abc393_b",
       "label": "B",
       "title": "A..B..C",
-      "url": "https://atcoder.jp/contests/abc393/tasks/abc393_b"
+      "url": "https://atcoder.jp/contests/abc393/tasks/abc393_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc393_c",
