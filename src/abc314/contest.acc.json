@@ -20,12 +20,7 @@
       "id": "abc314_b",
       "label": "B",
       "title": "Roulette",
-      "url": "https://atcoder.jp/contests/abc314/tasks/abc314_b",
-      "directory": {
-        "path": "b",
-        "testdir": "test",
-        "submit": "main.cpp"
-      }
+      "url": "https://atcoder.jp/contests/abc314/tasks/abc314_b"
     },
     {
       "id": "abc314_c",
