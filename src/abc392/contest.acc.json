@@ -20,7 +20,12 @@
       "id": "abc392_b",
       "label": "B",
       "title": "Who is Missing?",
-      "url": "https://atcoder.jp/contests/abc392/tasks/abc392_b"
+      "url": "https://atcoder.jp/contests/abc392/tasks/abc392_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc392_c",
