@@ -20,7 +20,12 @@
       "id": "abc395_b",
       "label": "B",
       "title": "Make Target",
-      "url": "https://atcoder.jp/contests/abc395/tasks/abc395_b"
+      "url": "https://atcoder.jp/contests/abc395/tasks/abc395_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc395_c",
