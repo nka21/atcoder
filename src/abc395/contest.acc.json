@@ -31,7 +31,12 @@
       "id": "abc395_c",
       "label": "C",
       "title": "Shortest Duplicate Subarray",
-      "url": "https://atcoder.jp/contests/abc395/tasks/abc395_c"
+      "url": "https://atcoder.jp/contests/abc395/tasks/abc395_c",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc395_d",
