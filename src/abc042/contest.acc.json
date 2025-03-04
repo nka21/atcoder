@@ -9,7 +9,12 @@
       "id": "abc042_a",
       "label": "A",
       "title": "Iroha and Haiku (ABC Edition)",
-      "url": "https://atcoder.jp/contests/abc042/tasks/abc042_a"
+      "url": "https://atcoder.jp/contests/abc042/tasks/abc042_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc042_b",
