@@ -6,7 +6,9 @@
     },
     "customizations": {
         "vscode": {
-            "extensions": [],
+            "extensions": [
+                "ms-vscode.cpptools"
+            ],
             "settings": {
                 "editor.formatOnSave": true
             }
