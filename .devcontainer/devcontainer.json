@@ -1,0 +1,15 @@
+{
+    "name": "AtCoder",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [],
+            "settings": {
+                "editor.formatOnSave": true
+            }
+        }
+    }
+}
