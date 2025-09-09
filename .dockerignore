@@ -1,5 +1,2 @@
-.git
-.gitignore
-
-**/test
+**/tests
 *.out
