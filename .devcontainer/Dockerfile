@@ -18,3 +18,7 @@ RUN sudo apt purge -y nodejs npm && \
 # Install dependencies
 RUN npm install -g atcoder-cli && \
     pip3 install online-judge-tools --break-system-packages
+
+# Copy to ~/.config
+COPY .devcontainer/atcoder-cli-nodejs /home/vscode/.config/atcoder-cli-nodejs
+RUN sudo chown -R vscode:vscode /home/vscode/.config/atcoder-cli-nodejs
