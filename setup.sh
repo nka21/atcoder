@@ -31,7 +31,7 @@ pip3 install online-judge-tools
 # 設定ファイルをコピー
 echo "設定ファイルをコピー中..."
 if [ -d ".config/atcoder-cli-nodejs" ]; then
-    cp -r .config/atcoder-cli-nodejs/* ~/.config/atcoder-cli-nodejs/
+    cp -r .config/* ~/.config/atcoder-cli-nodejs/
     echo "✅ 設定ファイルのコピーが完了しました"
 else
     echo "Error: .config/atcoder-cli-nodejs が見つかりません"
